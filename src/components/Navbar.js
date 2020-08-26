@@ -6,7 +6,7 @@ const NavBar = () => {
         <>
             <div className="container-fluid nav_bg">
                 <div className='row'>
-                    <div className="col-11 mx-auto">
+                    <div className="col-10 mx-auto">
                         <nav className="navbar navbar-expand-lg navbar-light bg-light">
                             <NavLink className="navbar-brand" to="#">CareerMotivations</NavLink>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

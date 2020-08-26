@@ -1,6 +1,6 @@
 import React from "react";
 import Common from "./Common";
-import web from "../images/images.jpg";
+import web from "../images/image.jpg";
 
 const Home = () => {
     
