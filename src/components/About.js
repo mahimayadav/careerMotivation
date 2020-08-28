@@ -8,8 +8,8 @@ const About = () => {
             <>
             <Common title="Welcome to the Contact" 
             imgsrc={web}
-            visit="/contact"
-            btnname="Contact Us"
+            visit="/engineering"
+            btnname="Check Us"
             />
           </>
 

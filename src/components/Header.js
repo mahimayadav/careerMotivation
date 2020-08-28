@@ -1,37 +1,38 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const NavBar = () => {
+const Header = () => {
     return (
         <>
-            {/* <div className="container-fluid nav_bg" >
-                <div className='row'> */}
-                        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                            <NavLink className="navbar-brand" to="#">CareerMotivations</NavLink>
-                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
-                            </button>
+            {/* <div className="container-fluid nav_bg">
+                <div className='row'>
+                    <div className="col-12 mx-auto"> */}
+                        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul className="navbar-nav ml-auto">
+                                <ul className="navbar-nav mr-auto">
                                 <li className="nav-item">
-                                    <NavLink exact className="nav-link" aria-current="page" to="/">Home</NavLink>
+                                    <NavLink exact className="nav-link" aria-current="page" to="/">Top Colleges</NavLink>
                                 </li>
                                 {/* <li className="nav-item">
                                     <NavLink className="nav-link" to="/about">About</NavLink>
                                 </li> */}
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/engineering">Engineering</NavLink>
+                                    <NavLink className="nav-link" to="/engineering">Courses</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/medical">Medical</NavLink>
+                                    <NavLink className="nav-link" to="/medical">Review</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/management">Management</NavLink>
+                                    <NavLink className="nav-link" to="/management">Videos</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/service">Service</NavLink>
+                                    <NavLink className="nav-link" to="/service">Write a Review</NavLink>
                                 </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/service">Ask Ques/Ans</NavLink>
+                                </li>
+                                
                                 {/* <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Dropdown
@@ -59,9 +60,10 @@ const NavBar = () => {
                             </div>
                         </nav>
                     {/* </div>
-                </div> */}
+                </div>
+            </div> */}
         </>
     );
 };
 
-export default NavBar;
+export default Header;
