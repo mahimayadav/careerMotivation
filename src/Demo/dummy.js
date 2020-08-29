@@ -1,9 +1,5 @@
 import web from "../images/image.jpg";
-import app from "../images/app.jpg";
-import software from "../images/software.jpg";
-import mobile from "../images/mobile.jpg";
 import tab from "../images/tab.jpg";
-import desktop from "../images/desktop.jpg";
 
 const Data= [
     {
@@ -11,19 +7,19 @@ const Data= [
         title: "Web development"
     },
     {
-        imgsrc: app,
+        imgsrc: tab,
         title: "App development"
     },
     {
-        imgsrc: software,
+        imgsrc: web,
         title: "Software development"
     },
     {
-        imgsrc: mobile,
+        imgsrc: tab,
         title: "Mobile development"
     },
     {
-        imgsrc: desktop,
+        imgsrc: web,
         title: "Desktop development"
     },
     {

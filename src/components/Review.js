@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "./Card";
-import Data from "../Demo/dummy";
+import Card from "./ReviewCard";
+import Data from "../Demo/reviewdata";
 
-const Service = () => {
+const Review = () => {
     return (
         <>
             <div className="container-fluid my-5 md-5">
@@ -13,8 +13,8 @@ const Service = () => {
                                Data.map((val,index)=>{
                                    return <Card 
                                     key={index}
-                                    imgsrc={val.imgsrc}
-                                    title={val.title}
+                                    review={val.review}
+                                    name={val.name}
                                    />
                                })
                            }
@@ -22,13 +22,9 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-xxl-12 text-center my-5" >
-               <button type="button" className="btn btn-outline-info" data-toggle="tooltip" data-placement="right" title="My dream">
-                   Check More</button> 
-            </div>
                     
         </>
     );
 };
 
-export default Service;
+export default Review;
