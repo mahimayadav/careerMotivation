@@ -7,13 +7,13 @@ const Login = () => {
         return (
           <>
           <div className="login-body">
-            <section className="Form my-5">
-                <div className="container">
+            <section className="Form">
+                <div className="container ">
                     <div className='row no-gutters'>
-                        <div className="col-lg-5">
+                        <div className="col-lg-5 py-5">
                             <img src={web} className="img-fluid" alt="web" />
                         </div>
-                        <div className="col-lg-7 px-5 py-5">
+                        <div className="col-lg-7 px-5 bg  py-5 my-5">
                             <h1 className="font-weight-bold py-3">Login</h1>
                             <h4>Sign into your account</h4>
                             <form>
