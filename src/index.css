@@ -36,7 +36,7 @@
   }
 }
 
-/* .......................................................... */
+/* ................................Home.......................... */
 
 #header {
   width: 100%;
@@ -86,7 +86,7 @@
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-/* .................................................................................................................... */
+/* .........................Carousel........................................................................................... */
 * {
  margin: 0;
  padding: 0;
@@ -97,6 +97,7 @@
   font-size: 30px;
   text-align: center;
   margin-bottom: 220px;
+  margin-top: 100px;
  
 }
 
@@ -109,7 +110,7 @@
  height: 63vh;
 }
 
-/* .................................................. */
+/* .........................SearchBar......................... */
 #search-bar {
   position: absolute;
   z-index: 1;
@@ -120,6 +121,7 @@
   margin-right: 20%;
   margin-left: 20%;
 }
+/* ...................Media.................................. */
 
 @-webkit-keyframes up-down {
   0% {
@@ -139,3 +141,78 @@
   }
 }
 
+/* ............................Model...................... */
+
+
+/* .........................login............................................. */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.row{
+  background: #fff;
+  border-radius: 10px;
+}
+img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: white;
+    border:1px solid;
+    color: black;
+}
+.btn2{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn2:hover{
+  background-color: white;
+  border:1px solid;
+  color: rgb(57, 42, 192);
+}
+.btn3{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color:rgb(255, 0, 43) ;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn3:hover{
+  background-color: white;
+  border:1px solid;
+  color: rgb(255, 0, 43);
+}
+.container img{
+  height: 83vh;
+  
+}
+.login-body{
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: rgb(216, 226, 226);
+}

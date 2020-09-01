@@ -33,13 +33,13 @@ const PopoverItem = props => {
   );
 };
 
-const PopoverExampleMulti = props => {
+const Doctoral = props => {
   return (
     <>
       {[
         {
           placement: "bottom",
-          text: "ENGINEERING"
+          text: "DOCTORAL/PHD"
         }
       ].map((popover, i) => {
         return <PopoverItem key={i} item={popover} id={i} />;
@@ -48,4 +48,4 @@ const PopoverExampleMulti = props => {
   );
 };
 
-export default PopoverExampleMulti;
+export default Doctoral;

@@ -4,59 +4,39 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <>
-            {/* <div className="container-fluid nav_bg">
-                <div className='row'>
-                    <div className="col-12 mx-auto"> */}
+        
                         <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav mr-auto">
                                 <li className="nav-item">
-                                    <NavLink exact className="nav-link" aria-current="page" to="/">Top Colleges</NavLink>
-                                </li>
-                                {/* <li className="nav-item">
-                                    <NavLink className="nav-link" to="/about">About</NavLink>
-                                </li> */}
-                                <li className="nav-item">
-                                    <NavLink className="nav-link" to="/engineering">Courses</NavLink>
+                                    <NavLink exact className="nav-link" aria-current="page" to="/colleges">TOP COLLEGES</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/medical">Review</NavLink>
+                                    <NavLink exact className="nav-link" to="/courses">COURSES</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/management">Videos</NavLink>
+                                    <NavLink exact className="nav-link" to="/review">REVIEW</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/service">Write a Review</NavLink>
+                                    <NavLink exact className="nav-link" to="/videos">VIDEOS</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/service">Ask Ques/Ans</NavLink>
-                                </li>
-                                
-                                {/* <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown
-                                    </a>
-                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#">Action</a>
-                                    <a className="dropdown-item" href="#">Another action</a>
-                                    <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Something else here</a>
-                                    </div>
+                                    <NavLink exact className="nav-link" to="/review">WRITE A REVIEW</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                                </li> */}
+                                    <NavLink exact className="nav-link" to="/queans">ASK QUES/ANS</NavLink>
+                                </li>
+
                                 </ul>
-                                {/* <ul className="navbar-nav ml-auto">
+                                <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="#">Login</NavLink>
+                                    <NavLink exact className="nav-link" to="/login"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                      </svg>  LOGIN</NavLink>
                                 </li>
-                                    </ul> */}
-                                {/* <form className="form-inline my-2 my-lg-0">
-                                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                </form> */}
+                                    </ul>
+                               
                             </div>
                         </nav>
                     {/* </div>

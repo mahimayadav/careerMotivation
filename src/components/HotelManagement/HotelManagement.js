@@ -33,13 +33,13 @@ const PopoverItem = props => {
   );
 };
 
-const PopoverExampleMulti = props => {
+const HManagement = props => {
   return (
     <>
       {[
         {
           placement: "bottom",
-          text: "ENGINEERING"
+          text: "HOTEL MANAGEMENT"
         }
       ].map((popover, i) => {
         return <PopoverItem key={i} item={popover} id={i} />;
@@ -48,4 +48,4 @@ const PopoverExampleMulti = props => {
   );
 };
 
-export default PopoverExampleMulti;
+export default HManagement;

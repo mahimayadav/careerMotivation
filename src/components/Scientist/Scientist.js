@@ -22,6 +22,7 @@ const PopoverItem = props => {
         isOpen={popoverOpen}
         target={"Popover-" + id}
         toggle={toggle}
+        
       >
         <PopoverHeader>Popover Title</PopoverHeader>
         <PopoverBody>
@@ -33,13 +34,13 @@ const PopoverItem = props => {
   );
 };
 
-const PopoverExampleMulti = props => {
+const SCIENTIST = props => {
   return (
     <>
       {[
         {
           placement: "bottom",
-          text: "ENGINEERING"
+          text: "SCIENTIST"
         }
       ].map((popover, i) => {
         return <PopoverItem key={i} item={popover} id={i} />;
@@ -48,4 +49,4 @@ const PopoverExampleMulti = props => {
   );
 };
 
-export default PopoverExampleMulti;
+export default SCIENTIST;
