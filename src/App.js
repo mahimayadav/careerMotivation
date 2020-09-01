@@ -14,6 +14,7 @@ import Courses from './components/Pages/Courses/Courses';
 import Review from './components/Pages/Review/Review';
 import Videos from './components/Pages/Videos/Videos'
 import Register from './components/Authentication/Register';
+import ForgotPassword from './components/Authentication/ForgotPassword';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/" component={Home}></Route>
           <Route exact path="/login" component={Login}></Route>
           <Route exact path="/register" component={Register}></Route>
+          <Route exact path="/forgotpassword" component={ForgotPassword}></Route>
           <Route exact path="/review" component={Review}></Route>
           <Route exact path="/courses" component={Courses}></Route>
           <Route exact path="/colleges" component={Colleges}></Route>
