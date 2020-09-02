@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card";
-import Data from "../Demo/dummy";
+import Card from "../Card";
+import Data from "../../api/carddata";
 
 
 const Service = () => {
@@ -16,6 +16,7 @@ const Service = () => {
                                     key={index}
                                     imgsrc={val.imgsrc}
                                     title={val.title}
+                                    link={val.link}
                                    />
                                })
                            }

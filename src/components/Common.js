@@ -5,15 +5,19 @@ const Common = (props) => {
     
         return (
           <>
-            <section className="main-heading my-5">
-                <div className="text-center">
-                  <h1 className="display-4">{props.heading}</h1>
+           <div className="container-fluid">
+                    <div className='row'>
+           <div className="text-center my-5">
+                  <h1 className="display-5">{props.heading}</h1>
                   <hr className="w-25 mx-auto" />
                 </div>
-                <div id="header" className="d-flex align-items-center">
+            </div>
+          </div>
+            <section className="main-heading my-5 ">
+                <div id="header" className="d-flex align-items-center md-5">
                   <div className="container-fluid">
                     <div className='row'>
-                        <div className="col-10 mx-auto">
+                        <div className="col-10 mx-auto ">
                           <div className="row">
                             <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                                 <h1>
