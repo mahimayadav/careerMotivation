@@ -1,12 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Management from "./Management/Management";
-import Medical from "./Medical/Medical";
-import Engineering from "./Engineering/Engineering";
-import Scientist from "./Scientist/Scientist";
-import HotelManagement from "./HotelManagement/HotelManagement";
-import Doctoral from "./Doctoral/Dcotoral";
-import Finance from "./Finance/Finance";
+import PopoverNavBar from "./Popover/PopoverNavBar";
 
 const NavBar = () => {
     
@@ -24,34 +18,8 @@ const NavBar = () => {
                                     <NavLink exact className="nav-link" aria-current="page" to="/">HOME</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Engineering />
+                                    <PopoverNavBar />
                                 </li>
-                        
-                                <li className="nav-item">
-                                    <Medical />
-                                </li>
-                                <li className="nav-item">
-                                    <Management />
-                                </li>
-                                <li className="nav-item">
-                                    <Scientist />
-                                </li>
-                                <li className="nav-item">
-                                    <HotelManagement />
-                                </li>
-                                <li className="nav-item">
-                                    <Finance />
-                                </li>
-                                <li className="nav-item">
-                                    <Doctoral />
-                                </li>
-                               
-                                {/* <li className="nav-item">
-                                 <form className="form-inline my-2 my-lg-0">
-                                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                </form>
-                                </li> */}
                                 </ul>
                             </div>
                         </nav>

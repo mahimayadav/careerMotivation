@@ -22,6 +22,7 @@ const PopoverItem = props => {
         isOpen={popoverOpen}
         target={"Popover-" + id}
         toggle={toggle}
+        trigger="hover"
       >
         <PopoverHeader>Popover Title</PopoverHeader>
         <PopoverBody>
@@ -37,9 +38,33 @@ const Accountancy = props => {
   return (
     <>
       {[
+          {
+            placement: "bottom",
+            text: "ENGINEERING"
+          },
+          {
+            placement: "bottom",
+            text: "MEDICAL"
+          },
+          {
+            placement: "bottom",
+            text: "MANAGEMENT"
+          },
+          {
+            placement: "bottom",
+            text: "SCIENTIST"
+          },
+          {
+            placement: "bottom",
+            text: "HOTEL MANAGEMENT"
+          },
         {
           placement: "bottom",
           text: "FINANCE/ACCOUNTANCY"
+        },
+        {
+          placement: "bottom",
+          text: "DOCTORAL/PHD"
         }
       ].map((popover, i) => {
         return <PopoverItem key={i} item={popover} id={i} />;
