@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Popover, PopoverHeader, PopoverBody } from "reactstrap";
+import { Button, Popover, PopoverBody } from "reactstrap";
 
 const PopoverItem = props => {
   const { id, item } = props;
@@ -24,7 +24,7 @@ const PopoverItem = props => {
         toggle={toggle}
         trigger="hover"
       >
-        <PopoverHeader>Popover Title</PopoverHeader>
+        {/* <PopoverHeader>Popover Title</PopoverHeader> */}
         <PopoverBody>
           Sed posuere consectetur est at lobortis. Aenean eu leo quam.
           Pellentesque ornare sem lacinia quam venenatis vestibulum.

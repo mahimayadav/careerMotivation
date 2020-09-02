@@ -26,6 +26,14 @@ const Data= [
         imgsrc: tab,
         title: "Tab development"
     },
+    {
+        imgsrc: web,
+        title: "Software development"
+    },
+    {
+        imgsrc: tab,
+        title: "Mobile development"
+    }
     
 ]
 
