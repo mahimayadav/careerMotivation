@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 * {
   margin: 0;
@@ -19,7 +20,9 @@
   font-size: 1.0rem;
   text-transform: capitalize;
 } 
-
+.navbar-collapse {
+  width: 50px;
+}
 .menu_active { 
   font-weight: bold;
   color: #3498db !important;
@@ -85,7 +88,6 @@
 /* #header .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 } */
-
 /* .........................Carousel........................................................................................... */
 * {
  margin: 0;
@@ -213,8 +215,7 @@ img{
   height: 80vh;
   
 }
-/* .login-body{
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: rgb(216, 226, 226);
-} */
+.margin-left  {
+  margin-left: 20px !important;
+  margin-top: 20px;
+}

@@ -1,18 +1,19 @@
 import React from "react";
-import Card from "../Card";
 import Data from "../../api/Lists";
+import FirstListCard from "./FirstListCard";
 
 
 const List = () => {
     return (
         <>
             <div className="container-fluid my-5 md-5">
-                <div className='row '>
+                <div className='row'>
                     <div className="col-10 mx-auto">
                         <div className="row gy-4">
+                            
                            {
                                Data.map((val,index)=>{
-                                   return <Card 
+                                   return <FirstListCard 
                                     key={index}
                                     imgsrc={val.imgsrc}
                                     title={val.title}

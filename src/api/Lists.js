@@ -1,72 +1,75 @@
-import Engineer from "../images/engineer.jpg";
-import Medical from "../images/medical.jpg";
-import Management from "../images/management.jpg";
-import HotelManagement from "../images/hotelmanagement.jpg";
-import Speaker from "../images/speaker.jpg";
-import Sports from "../images/sports.jpg";
-import Scientist from "../images/scientist.jpg";
-import Research from "../images/reserch.jpg";
+import courses from "../images/courses.jpg";
+import agreeculture from "../images/agreeculture.jpg";
+import psujob from "../images/psujob.jpg";
+import prijob from "../images/prijob.jpg";
+import news from "../images/news.jpg";
+import job from "../images/job.jpg";
+import college from "../images/college.jpg";
+import games from "../images/games.jpg";
+import bussiness from "../images/bussiness.jpg";
+import writer from "../images/writer.jpg";
+import exam from "../images/exam.jpg";
 
 const TopData= [
     {
-        imgsrc: Engineer,
-        title: "Top Colleges",
+        imgsrc: college,
+        title: "Find best Colleges",
         link: "/review"
     },
     {
-        imgsrc: Medical,
-        title: "Top JObs",
+        imgsrc: job,
+        title: "Find best JObs",
         link: "/review"
     },
     {
-        imgsrc: Speaker,
-        title: "Top Private Jobs",
+        imgsrc: prijob,
+        title: "Find best Private Jobs",
         link: "/review"
     },
     {
-        imgsrc: Management,
+        imgsrc: psujob,
         title: "Top Government PSUs Jobs",
         link: "/review"
     },
     {
-        imgsrc: Scientist,
+        imgsrc: exam,
         title: "Top Exams",
         link: "/review"
     },
      
     {
-        imgsrc: Sports,
+        imgsrc: news,
         title: "Current Affairs",
         link: "/review"
     },
     {
-        imgsrc: HotelManagement,
+        imgsrc: agreeculture,
         title: "Agriculture Jobs",
         link: "/review"
     },
     {
-        imgsrc: Research,
+        imgsrc: bussiness,
         title: "Top Businesses",
         link: "/review"
     },
     {
-        imgsrc: Research,
-        title: "Courses",
+        imgsrc: courses,
+        title: "Find best Courses",
         link: "/review"
     },
     {
-        imgsrc: Research,
+        imgsrc: news,
         title: "Channels",
         link: "/review"
     },
     {
-        imgsrc: Research,
-        title: "Games",
+        imgsrc: games,
+        title: "Top Games",
         link: "/review"
     },
     {
-        imgsrc: Research,
-        title: "Top Novels",
+        imgsrc: writer,
+        title: "Find best Novels",
         link: "/review"
     }
     

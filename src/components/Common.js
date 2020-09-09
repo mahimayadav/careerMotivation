@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ReactPlayer from 'react-player';
+
 
 const Common = (props) => {
     
@@ -32,7 +34,14 @@ const Common = (props) => {
                                 </div>
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 header-img">
-                                <img src={props.imgsrc} className="img-fluid animated" alt="home img" />
+                                {/* <img src={props.imgsrc} className="img-fluid animated" alt="home img" /> */}
+                                <ReactPlayer className="img-fluid animated"
+                                  //  url={"https://www.youtube.com/watch?v=WmTb7Izi0n0"}
+                                  url ={props.url}
+                                   muted={false}
+                                   playing={true}
+                                   >
+                                </ReactPlayer>
                             </div>
                           </div>
                       </div>
