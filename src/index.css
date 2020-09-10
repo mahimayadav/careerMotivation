@@ -123,9 +123,28 @@
   margin-right: 20%;
   margin-left: 20%;
 }
+
+.btn-prev {
+  position: absolute;
+  z-index: 1;
+  top:0px;
+  bottom: 50%;
+  margin-right: 50%;
+  align-content: center;
+  float: left;
+}
+.btn-next {
+  position: absolute;
+  z-index: 1;
+  top:0px;
+  bottom: 53%;
+  margin-left: 95%;
+  align-content: center;
+  float: right;
+}
 /* ...................Media.................................. */
 
-@-webkit-keyframes up-down {
+/* @-webkit-keyframes up-down {
   0% {
     transform: translatey(10px);
   }
@@ -141,7 +160,7 @@
   100% {
     transform: translatey(-10px);
   }
-}
+} */
 
 
 

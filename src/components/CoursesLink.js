@@ -25,6 +25,26 @@ const CoursesLink = () => {
              <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">Fashion Designing</button></NavLink>
              <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">Dance</button></NavLink>
              <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">Singing</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">Executive MBA</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">M.Sc(Hotel Management)</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">BBA(Aviation!)</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">B.Arch</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">M.Sc(Nurshing)</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">M.Des</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">MMC</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">B.Sc(Nurshing)</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">BFA</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">ph.D</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">BVSc</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">Masters in Vocational Courses</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">MHA</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">B.Des</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">MDS</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">M.Sc(Medicine)</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">M.Ch</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">MBA(Hospitality)</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">MBA(honours)</button></NavLink>
+             <NavLink to="/review"><button type="button" className="btn btn-outline-warning margin-left">MBA(Hotel Management)</button></NavLink>
            
           </>
 
