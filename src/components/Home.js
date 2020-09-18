@@ -6,13 +6,22 @@ import About from "./About";
 import Review from "./Review";
 import FirstList from "./AllHomeLists/FirstList";
 import CoursesLink from "./CoursesLink";
+import web from "../images/image.jpg";
+import web1 from "../images/image1.jpg";
+import web2 from "../images/image2.jpg";
 
 
 const Home = (props) => {
     
         return (
           <>
-           <Carousel />
+           <Carousel title="Find Your Dreams Here"
+           title1="Over 25000 College and Achive"
+           title2="Your Goal What You Wanted To Be"
+           img={web}
+           img1={web1}
+           img2={web2}
+           />
            <div className="container-fluid">
                     <div className='row'>
            <div className="text-center my-5">
@@ -50,10 +59,10 @@ const Home = (props) => {
                 <h1 className="display-4">All India Top Courses</h1>
                 <hr className="w-25 mx-auto" />
               </div>  
-              <div className="row">
+              <div className="row mx-5">
                 <div className="col-10 mx-auto ">
                   <div className="row">
-                    <div className="col-md-10 my-5 mx-5 ">
+                    <div className="col-md-10 my-5">
                       <CoursesLink />
                     </div>
                   </div>
